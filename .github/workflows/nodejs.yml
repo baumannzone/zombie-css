@@ -1,11 +1,11 @@
 name: Node CI
 
-on: 
+on:
   push:
     branches:
     - master
     - feat/*
-  
+
   pull_request:
     branches:
     - master
@@ -29,6 +29,5 @@ jobs:
       run: |
         npm install
         npm run build
-        npm test:unit
       env:
         CI: true
