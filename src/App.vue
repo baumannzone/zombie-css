@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <BaseNavBar/>
-    <router-view/>
+    <div class="container">
+      <BaseNavBar/>
+      <router-view/>
+    </div>
   </div>
 </template>
 <script>
@@ -11,3 +13,9 @@ export default {
   components: { BaseNavBar }
 }
 </script>
+
+<style lang="stylus">
+  .container
+    width 900px
+    margin 0 auto
+</style>
