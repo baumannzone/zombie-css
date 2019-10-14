@@ -16,6 +16,6 @@ export default {
 
 <style lang="stylus">
   .container
-    width 900px
+    width 500px
     margin 0 auto
 </style>
