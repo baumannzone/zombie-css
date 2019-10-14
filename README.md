@@ -1,4 +1,6 @@
-# zombie-css
+# 🧟‍♀️ Zombie CSS 🧟‍♂️
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/62cc51b5-8ff4-4864-a1c1-79640db48a50/deploy-status)](https://app.netlify.com/sites/zombie-css/deploys)
 
 ## Project setup
 ```
@@ -34,6 +36,3 @@ npm run test:e2e
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
