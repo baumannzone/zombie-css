@@ -30,6 +30,7 @@ export default {
   blackBorder = #292c34
 
   .zombie
+    margin-top 100px
     *
       box-sizing border-box
 
@@ -52,34 +53,49 @@ export default {
         position absolute
 
         .hair-0
-          top -50px
+          top -130px
           left -70px
           position absolute
-          width 200px
-          height 220px
+          width 300px
+          height 300px
           background blackBorder
-          border-radius 110px
+          border-radius 150px
 
         .hair-1
+          top -150px
+          left 110px
+          position absolute
+          width 200px
+          height 200px
+          background blackBorder
+          border-radius 150px
+
+        .hair-2
           position: absolute
-          top: 0
-          left: -20px
-          width: 190px
-          height: 175px
+          top: -70px
+          left: -19px
+          width: 250px
+          height: 240px
           background-color: #b4e900
-          border-top-left-radius: 90px
-          border-top-right-radius: 165px
-          border-bottom-right-radius: 0
-          border-bottom-left-radius: 145px
+          border-radius: 120px
 
           &:after
-            content ''
-            position absolute
-            width 80px
-            height 35px
-            background greenSkin
-            bottom -15px
-            left: 45px
-            border-bottom-left-radius: 8px
+            content: ''
+            position: absolute
+            width: 80px
+            height: 35px
+            background: #b4e900
+            bottom: 0
+            left: 44px
+
+        .hair-3
+          position: absolute
+          top: -50px
+          left: 225px
+          width: 65px
+          height: 110px
+          background-color: #b4e900
+          border-radius: 120px
+          transform: skew(-20deg)
 
 </style>
