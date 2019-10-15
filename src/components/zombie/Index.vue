@@ -2,14 +2,14 @@
   <div class="zombie">
     <div class="face-container">
       <div class="face-header">
+        <div class="base"></div>
+        <div class="brain"></div>
         <div class="hair">
           <div class="hair-0"></div>
           <div class="hair-1"></div>
           <div class="hair-2"></div>
           <div class="hair-3"></div>
         </div>
-        <div class="base"></div>
-        <div class="brain"></div>
       </div>
       <div class="face-content"></div>
       <div class="face-footer"></div>
@@ -30,7 +30,7 @@ export default {
   blackBorder = #292c34
 
   .zombie
-    margin-top 100px
+    margin-top 150px
     *
       box-sizing border-box
 
@@ -43,16 +43,35 @@ export default {
       position relative
 
       .base
+        position: relative
         width 100%
-        height 190px
+        height 120px
         background-color greenSkin
-        border-left 25px solid blackBorder
-        border-right 25px solid blackBorder
+        // border-left 25px solid blackBorder
+        // border-right 25px solid blackBorder
+        &:before
+        &:after
+          content: ''
+          position: absolute
+          width: 10px
+          height: 100px
+          background: #b4e900
+          bottom: 0
+
+        &:before
+          left: -4px
+          border-left 25px solid blackBorder
+          transform skew(4deg)
+
+        &:after
+          right: -4px
+          border-right 25px solid blackBorder
+          transform skew(-4deg)
 
       .hair
         position absolute
 
-        .hair-0
+        /*.hair-0
           top -130px
           left -70px
           position absolute
@@ -96,6 +115,6 @@ export default {
           height: 110px
           background-color: #b4e900
           border-radius: 120px
-          transform: skew(-20deg)
+          transform: skew(-20deg)*/
 
 </style>
