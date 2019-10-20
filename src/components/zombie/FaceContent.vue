@@ -2,12 +2,20 @@
   <div class="face-content">
     <div class="ears">
       <div class="ear-left"></div>
-      <div class="ear-space"></div>
+      <div class="ear-space">
+        <div class="eyes">
+          <div class="eye-left-wrapper">
+            <div class="eye">
+              <div class="decorator decorator-1"></div>
+              <div class="decorator decorator-2"></div>
+            </div>
+          </div>
+          <div class="eye-right-wrapper">
+            <div class="eye"></div>
+          </div>
+        </div>
+      </div>
       <div class="ear-right"></div>
-    </div>
-    <div class="eyes">
-      <div class="eye-left"></div>
-      <div class="eye-right"></div>
     </div>
     <div class="nose-wrapper"></div>
   </div>
@@ -69,10 +77,12 @@ export default {
         border-right 25px solid blackBorder
 
         &:before
-          right 19px
+          right 18px
           top -19px
           transform skew(-5deg)
 
+      // === EAR SPACE ===
+      // =================
       .ear-space
         position relative
         flex-grow 1
@@ -93,6 +103,89 @@ export default {
 
         &:after
           right -30px
+
+        // === EYES 👀 ===
+        // ===============
+        .eyes
+          display flex
+          justify-content space-evenly
+          margin-top -50px
+
+          .eye-left-wrapper,
+          .eye-right-wrapper
+            z-index 1
+            border 25px solid blackBorder
+            background-color blackBorder
+            position relative
+            display block
+            width 150px
+            height 150px
+
+          .eye-left-wrapper
+            border-radius 50% 50% 50% 20%
+
+            .eye
+              position relative
+              top 70px
+              left 10px
+              width 100%
+              height 100%
+              background-color whiteEye
+              border-radius 50%
+              box-shadow 0 0 0 20px blackBorder
+
+              &:before
+                position absolute
+                content ''
+                display block
+                width 0
+                height 0
+                top: calc(50% - 25px)
+                left: calc(50% - 25px)
+                border-radius 50%
+                border 25px solid blackBorder
+
+              .decorator
+                display inline-block
+                position relative
+                background-color whiteEye
+                &.decorator-1
+                  width 25px
+                  height 60px
+                  top -30px
+                  left 10px
+                  box-shadow 35px -20px 0 whiteEye
+
+                  &:before
+                    content ''
+                    position absolute
+                    width 25px
+                    height 25px
+                    background-color whiteEye
+                    top -10px
+                    border-radius 50%
+                    box-shadow 35px -20px 0 whiteEye
+
+          .eye-right-wrapper
+            border-radius 50% 20% 50% 50%
+
+            .eye
+              position relative
+              width 100%
+              height 100%
+              background-color whiteEye
+              border-radius 50%
+
+              &:before
+                position absolute
+                content ''
+                display block
+                width 0
+                height 0
+                top: calc(50% - 25px)
+                left: calc(50% - 25px)
+                border-radius 50%
+                border 25px solid blackBorder
 
     .nose-wrapper
       position relative
