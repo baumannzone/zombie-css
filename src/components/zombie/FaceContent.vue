@@ -9,6 +9,7 @@
       <div class="eye-left"></div>
       <div class="eye-right"></div>
     </div>
+    <div class="nose-wrapper"></div>
   </div>
 </template>
 
@@ -93,10 +94,13 @@ export default {
         &:after
           right -30px
 
-    .eyes
+    .nose-wrapper
       position relative
       display block
+      top -32px
       width 100%
       height 100px
       background-color greenSkin
+      border-left 25px solid blackBorder
+      border-right 25px solid blackBorder
 </style>
