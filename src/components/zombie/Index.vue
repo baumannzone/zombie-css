@@ -95,10 +95,21 @@ export default {
           height 200px
           border-radius 50%
           background-color pinkBrain
-          border-top 25px solid #292c35
-          border-left 25px solid transparent
-          border-right 25px solid transparent
-          border-bottom 25px solid transparent
+
+          &:before
+            position relative
+            display block
+            content ''
+            top -24px
+            left -26px
+            width 210px
+            height 200px
+            border-top 25px solid #292c35
+            border-left 25px solid transparent
+            border-right 25px solid transparent
+            border-bottom 25px solid transparent
+            border-radius 50%
+            transform rotate(-10deg)
 
       .brain-border
         position absolute
