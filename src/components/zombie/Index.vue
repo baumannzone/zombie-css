@@ -64,6 +64,10 @@ export default {
           height: 100px
           background: #b4e900
           bottom: 0
+          left: -4px
+          width 10px
+          border-left 25px solid blackBorder
+          transform skew(4deg)
 
         &:after
           content: ''
@@ -71,14 +75,8 @@ export default {
           height: 150px
           background: #b4e900
           bottom: 0
-
-        &:before
-          left: -4px
-          border-left 25px solid blackBorder
-          transform skew(4deg)
-
-        &:after
           right: -4px
+          width 10px
           border-right 25px solid blackBorder
           transform skew(-2deg)
 
