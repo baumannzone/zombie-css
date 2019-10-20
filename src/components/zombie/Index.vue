@@ -6,7 +6,6 @@
         <div class="brain">
           <div class="brain-0"></div>
           <div class="brain-1"></div>
-          <div class="brain-2"></div>
           <div class="brain-3"></div>
         </div>
         <div class="hair">
@@ -91,9 +90,9 @@ export default {
 
         .brain-1
           position: relative
-          transform rotate(25deg)
-          right -30px
-          width 250px
+          transform rotate(35deg)
+          right -49px
+          width 270px
           height 300px
           border-bottom 25px solid blackBorder
           border-left 25px solid transparent
@@ -160,7 +159,7 @@ export default {
           width 180px
           height 230px
           top -60px
-          left 130px
+          left 120px
           border-radius 50%
           background-color #292c34
 
@@ -174,5 +173,16 @@ export default {
             background-color greenSkin
             border-top-left-radius 50%
             border-top-right-radius 50%
+
+          &:after
+            content ''
+            position absolute
+            top 145px
+            left 108px
+            width 60px
+            height 60px
+            background-color greenSkin
+            border-radius 40%
+            transform rotate(-30deg)
 
 </style>
