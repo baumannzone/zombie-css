@@ -3,10 +3,9 @@
     <div class="face-container">
       <div class="face-header">
         <div class="base"></div>
-        <div class="brain">
+        <div class="brain-border">
           <div class="brain-0"></div>
           <div class="brain-1"></div>
-          <div class="brain-3"></div>
         </div>
         <div class="hair">
           <div class="hair-0"></div>
@@ -53,6 +52,13 @@ export default {
         background-color greenSkin
         border-top-right-radius: 30%;
         &:before
+          content: ''
+          position: absolute
+          width: 10px
+          height: 140px
+          background: #b4e900
+          bottom: 0
+
         &:after
           content: ''
           position: absolute
@@ -71,7 +77,7 @@ export default {
           border-right 25px solid blackBorder
           transform skew(-4deg)
 
-      .brain
+      .brain-border
         position absolute
         right 0
         top -300px
@@ -117,12 +123,12 @@ export default {
         top -180px
 
         .hair-0
+          z-index -100
           position: absolute
           top 40px
           width 420px
           height 160px
           background-color greenSkin
-          z-index -100
           border-top-right-radius 50%
 
         .hair-1
@@ -148,7 +154,7 @@ export default {
             content ''
             position absolute
             bottom 0
-            left 107px
+            left 108px
             width 40px
             height 25px
             background-color greenSkin
@@ -177,12 +183,12 @@ export default {
           &:after
             content ''
             position absolute
-            top 145px
-            left 108px
-            width 60px
+            top 143px
+            left 141px
+            width 30px
             height 60px
             background-color greenSkin
-            border-radius 40%
-            transform rotate(-30deg)
+            border-radius 25%
+            transform rotate(-29deg)
 
 </style>
