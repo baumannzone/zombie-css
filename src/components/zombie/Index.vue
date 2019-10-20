@@ -20,15 +20,18 @@
           <div class="hair-3"></div>
         </div>
       </div>
-      <div class="face-content"></div>
+      <FaceContent/>
       <div class="face-footer"></div>
     </div>
   </div>
 </template>
 
 <script>
+import FaceContent from './FaceContent'
+
 export default {
-  name: 'Zombie'
+  name: 'Zombie',
+  components: { FaceContent }
 }
 </script>
 
