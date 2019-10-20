@@ -35,7 +35,7 @@ export default {
   blackBorder = #292c34
 
   .zombie
-    margin-top 150px
+    margin-top 200px
     *
       box-sizing border-box
 
@@ -52,8 +52,7 @@ export default {
         width 100%
         height 120px
         background-color greenSkin
-        // border-left 25px solid blackBorder
-        // border-right 25px solid blackBorder
+        border-top-right-radius: 30%;
         &:before
         &:after
           content: ''
@@ -116,51 +115,64 @@ export default {
 
       .hair
         position absolute
+        top -180px
 
-        /*.hair-0
-          top -130px
-          left -70px
-          position absolute
-          width 300px
-          height 300px
-          background blackBorder
-          border-radius 150px
+        .hair-0
+          position: absolute
+          top 40px
+          width 420px
+          height 160px
+          background-color greenSkin
+          z-index -100
+          border-top-right-radius 50%
 
         .hair-1
-          top -150px
-          left 110px
           position absolute
-          width 200px
-          height 200px
-          background blackBorder
-          border-radius 150px
+          width 240px
+          height 240px
+          top -30px
+          left -90px
+          border-radius 50%
+          background-color #292c34
 
-        .hair-2
-          position: absolute
-          top: -70px
-          left: -19px
-          width: 250px
-          height: 240px
-          background-color: #b4e900
-          border-radius: 120px
+          &:before
+            content ''
+            position absolute
+            top 80px
+            left 80px
+            width 160px
+            height 160px
+            background-color greenSkin
+            border-radius 50%
 
           &:after
-            content: ''
-            position: absolute
-            width: 80px
-            height: 35px
-            background: #b4e900
-            bottom: 0
-            left: 44px
+            content ''
+            position absolute
+            bottom 0
+            left 107px
+            width 40px
+            height 25px
+            background-color greenSkin
+            transform rotate(-5deg)
 
-        .hair-3
-          position: absolute
-          top: -50px
-          left: 225px
-          width: 65px
-          height: 110px
-          background-color: #b4e900
-          border-radius: 120px
-          transform: skew(-20deg)*/
+        .hair-2
+          position absolute
+          width 180px
+          height 230px
+          top -60px
+          left 130px
+          border-radius 50%
+          background-color #292c34
+
+          &:before
+            content ''
+            position absolute
+            top 111px
+            left 16px
+            width 148px
+            height 120px
+            background-color greenSkin
+            border-top-left-radius 50%
+            border-top-right-radius 50%
 
 </style>
