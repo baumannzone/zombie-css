@@ -7,13 +7,14 @@
           <div class="brain-0"></div>
           <div class="brain-1"></div>
           <div class="brain-2"></div>
+          <div class="brain-shadows"></div>
         </div>
         <div class="brain-border">
-          <div class="brain-border-0"></div>
+          <!--<div class="brain-border-0"></div>-->
           <div class="brain-border-1"></div>
         </div>
         <div class="hair">
-          <div class="hair-0"></div>
+          <div class="hair-0-bg"></div>
           <div class="hair-1"></div>
           <div class="hair-2"></div>
           <div class="hair-3"></div>
@@ -34,6 +35,7 @@ export default {
 <style lang="stylus">
   greenSkin = #b4e900
   pinkBrain = #fe338f
+  pinkBrainShadow = #ea2e83
   whiteEye = #ffffff
   blackBorder = #292c34
 
@@ -55,20 +57,18 @@ export default {
         width 100%
         height 120px
         background-color greenSkin
-        border-top-right-radius: 30%;
+
         &:before
           content: ''
           position: absolute
-          width: 10px
-          height: 140px
+          height: 100px
           background: #b4e900
           bottom: 0
 
         &:after
           content: ''
           position: absolute
-          width: 10px
-          height: 100px
+          height: 150px
           background: #b4e900
           bottom: 0
 
@@ -80,19 +80,18 @@ export default {
         &:after
           right: -4px
           border-right 25px solid blackBorder
-          transform skew(-4deg)
+          transform skew(-2deg)
 
       .brain
         position absolute
         right 0
-        top -300
 
         .brain-0
           position absolute
           top -330px
           left -205px
-          width 210px
-          height 200px
+          width 165px
+          height 160px
           border-radius 50%
           background-color pinkBrain
 
@@ -101,20 +100,78 @@ export default {
             display block
             content ''
             top -24px
-            left -26px
-            width 210px
-            height 200px
-            border-top 25px solid #292c35
+            left -25px
+            width 160px
+            height 160px
+            border-top 25px solid blackBorder
             border-left 25px solid transparent
-            border-right 25px solid transparent
+            border-right 25px solid blackBorder
             border-bottom 25px solid transparent
             border-radius 50%
             transform rotate(-10deg)
 
+        .brain-1
+          position absolute
+          top -240px
+          left -100px
+          width 120px
+          height 121px
+          border-radius 50%
+          background-color pinkBrain
+          border-top 25px solid blackBorder
+          border-right 25px solid blackBorder
+          border-bottom 25px solid blackBorder
+          border-left 25px solid transparent
+          transform rotate(25deg)
+
+          &:after
+            position absolute
+            content ''
+            display block
+            width 50px
+            height 50px
+            border-bottom 6px solid pinkBrainShadow
+            border-right 6px solid pinkBrainShadow
+            border-radius 50%
+            transform: rotate(-90deg)
+            top: 7px
+            left 6px
+
+        .brain-2
+          position: absolute
+          width 125px
+          height 79px
+          top -227px
+          left -184px
+          border-radius 50%
+          background-color pinkBrain
+
+          &:after
+            position absolute
+            content ''
+            width 30px
+            height 50px
+            border-right 25px solid blackBorder
+            border-top 25px solid transparent
+            border-left 25px solid transparent
+            border-bottom 25px solid transparent
+            border-radius 50%
+
+        .brain-shadows
+          position: absolute
+          width 110px
+          height 100px
+          top -320px
+          left -180px
+          border-radius 50%
+          border-top 12px solid pinkBrainShadow
+          border-left 12px solid pinkBrainShadow
+          transform rotate(25deg)
+
       .brain-border
         position absolute
         right 0
-        top -300px
+        top -302px
 
         .brain-border-0
           position absolute
@@ -140,27 +197,15 @@ export default {
           border-right 25px solid transparent
           border-radius 50%
 
-        .brain-2
-          position: absolute
-          width 110px
-          height 140px
-          top 101px
-          left 19px
-          border-bottom 25px solid transparent
-          border-left 25px solid blackBorder
-          border-top 25px solid transparent
-          border-right 25px solid transparent
-          border-radius 50%
-
       .hair
         position absolute
         top -180px
 
-        .hair-0
+        .hair-0-bg
           z-index -100
           position: absolute
           top 40px
-          width 420px
+          width 450px
           height 160px
           background-color greenSkin
           border-top-right-radius 50%
@@ -196,7 +241,7 @@ export default {
 
         .hair-2
           position absolute
-          width 180px
+          width 181px
           height 230px
           top -60px
           left 120px
@@ -228,7 +273,7 @@ export default {
         .hair-3
           position absolute
           width 60px
-          height 80px
+          height 65px
           top -20px
           left 255px
           border-radius 50%
