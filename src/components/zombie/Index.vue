@@ -20,7 +20,7 @@
           <div class="hair-3"></div>
         </div>
       </div>
-      <FaceContent/>
+      <FaceContent />
       <div class="face-footer"></div>
     </div>
   </div>
@@ -48,7 +48,6 @@ export default {
       box-sizing border-box
 
   .face-container
-    // background-color: #fafafa
     width 100%
     height 400px
 
