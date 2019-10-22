@@ -21,17 +21,18 @@
         </div>
       </div>
       <FaceContent />
-      <div class="face-footer"></div>
+      <FaceBottom />
     </div>
   </div>
 </template>
 
 <script>
 import FaceContent from './FaceContent'
+import FaceBottom from './FaceBottom'
 
 export default {
   name: 'Zombie',
-  components: { FaceContent }
+  components: { FaceBottom, FaceContent }
 }
 </script>
 
