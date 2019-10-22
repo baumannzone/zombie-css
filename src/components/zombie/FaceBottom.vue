@@ -4,8 +4,10 @@
       <div class="nose-container">
         <div class="nose"></div>
       </div>
-      <div class="mouth">
-        <div class="teeth"></div>
+      <div class="mouth-container">
+        <div class="mouth">
+          <div class="teeth"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -62,5 +64,16 @@ export default {
             right -50%
           &:before
             bottom -50%
+
+      .mouth-container
+        display flex
+        justify-content center
+        margin-top 90px
+
+        .mouth
+          width 250px
+          height 80px
+          background-color blackBorder
+          border-radius 50% 50% 50% 50% / 85% 85% 15% 15%
 
 </style>
