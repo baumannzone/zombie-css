@@ -6,7 +6,11 @@
       </div>
       <div class="mouth-container">
         <div class="mouth">
-          <div class="teeth"></div>
+          <div class="teeth">
+            <div class="tooth tooth-1"></div>
+            <div class="tooth tooth-2"></div>
+            <div class="tooth tooth-3"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -21,10 +25,8 @@ export default {
 
 <style lang="stylus">
   greenSkin = #b4e900
-  pinkBrain = #fe338f
-  pinkBrainShadow = #ea2e83
-  whiteEye = #ffffff
   blackBorder = #292c34
+  yellowTooth = #faefaf
 
   .face-footer
     position relative
@@ -32,7 +34,7 @@ export default {
     margin-bottom 200px
     .wrapper
       width 100%
-      height 350px
+      height 320px
       background-color greenSkin
       border-radius 0 0 50% 50%
       border-bottom 25px solid blackBorder
@@ -75,5 +77,26 @@ export default {
           height 80px
           background-color blackBorder
           border-radius 50% 50% 50% 50% / 85% 85% 15% 15%
+
+          .teeth
+            display flex
+            justify-content center
+            padding-top 15px
+
+            .tooth
+              background-color yellowTooth
+              margin 3px
+
+              &.tooth-1
+                width 29px
+                height 23px
+
+              &.tooth-2
+                width 34px
+                height 32px
+
+              &.tooth-3
+                width 29px
+                height 23px
 
 </style>
