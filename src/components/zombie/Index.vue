@@ -39,7 +39,7 @@ export default {
 <style lang="stylus">
   greenSkin = #b4e900
   pinkBrain = #fe338f
-  pinkBrainShadow = #ea2e83
+  pinkBrainShadow = #ff70b5
   whiteEye = #ffffff
   blackBorder = #292c34
 
