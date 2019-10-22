@@ -84,19 +84,49 @@ export default {
             padding-top 15px
 
             .tooth
+              position relative
               background-color yellowTooth
               margin 3px
 
               &.tooth-1
-                width 29px
+                width 30px
                 height 23px
+                &:after
+                  position absolute
+                  content ''
+                  display block
+                  bottom -9px
+                  border-top 4px solid yellowTooth
+                  border-left 8px solid yellowTooth
+                  border-bottom 5px solid transparent
+                  border-right 15px solid transparent
 
               &.tooth-2
                 width 34px
                 height 32px
+                &:after
+                  position absolute
+                  content ''
+                  display block
+                  bottom 0
+                  left 6px
+                  border-top 1px solid transparent
+                  border-left 7px solid transparent
+                  border-bottom 12px solid blackBorder
+                  border-right 10px solid transparent
 
               &.tooth-3
                 width 29px
                 height 23px
+                &:after
+                  position absolute
+                  content ''
+                  display block
+                  right -14px
+                  top 0
+                  border-top 23px solid transparent
+                  border-left 5px solid yellowTooth
+                  border-bottom 0 solid transparent
+                  border-right 10px solid transparent
 
 </style>
