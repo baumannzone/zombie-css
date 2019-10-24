@@ -14,8 +14,3 @@ export default {
   }
 }
 </script>
-
-<style lang="stylus">
-  .home
-    padding-top 30px
-</style>
