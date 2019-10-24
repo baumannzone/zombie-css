@@ -1,6 +1,16 @@
-# 🧟‍♀️ Zombie CSS 🧟‍♂️
+# 🧟‍♀️ Pure CSS Zombie 🧟‍♂️
+
+> Pure CSS Zombie · Made with [Vue.js](https://vuejs.org/) & [Stylus CSS](http://stylus-lang.com/). 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/62cc51b5-8ff4-4864-a1c1-79640db48a50/deploy-status)](https://app.netlify.com/sites/zombie-css/deploys)
+[![Build Status](https://github.com/baumannzone/zombie-css/workflows/Node%20CI/badge.svg)](https://github.com/baumannzone/zombie-css/actions)
+[![Style](https://img.shields.io/badge/code%20style-standard-brightgreen)](https://img.shields.io/badge/code%20style-standard-brightgreen?style=flat-square)
+[![GitHub last commit](https://img.shields.io/github/last-commit/baumannzone/zombie-css)](https://github.com/baumannzone/zombie-css/commits/master)
+
+[![Code of conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg)](https://github.com/baumannzone/zombie-css/blob/master/CODE_OF_CONDUCT.md)
+![GitHub](https://img.shields.io/github/license/baumannzone/zombie-css?color=blue)
+
+> -- < < LOGO > > --
 
 ## Project setup
 ```

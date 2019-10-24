@@ -10,7 +10,7 @@
 
 <script>
 import BaseNavBar from './components/BaseNavBar'
-import BaseFooter from './BaseFooter'
+import BaseFooter from './components/BaseFooter'
 
 export default {
   components: { BaseFooter, BaseNavBar }
