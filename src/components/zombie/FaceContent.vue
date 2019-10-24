@@ -46,10 +46,11 @@ export default {
 
       .ear-right,
       .ear-left
+        position relative
         content ''
         display block
         width 90px
-        height 100px
+        height 120px
         border-top 25px solid blackBorder
         border-bottom 25px solid blackBorder
         border-radius 50%
@@ -63,14 +64,28 @@ export default {
           height 25px
           background-color blackBorder
 
+        &:after
+          content ''
+          display block
+          position absolute
+          background-color greenSkin
+          width 50px
+          height 50px
+          z-index -1
+
       .ear-left
         border-left 25px solid blackBorder
         border-right 25px solid transparent
+        z-index 1
 
         &:before
           left 32px
           top -19px
           transform skew(5deg)
+
+        &:after
+          top 0
+          left 40px
 
       .ear-right
         border-left 25px solid transparent
@@ -80,6 +95,10 @@ export default {
           right 18px
           top -19px
           transform skew(-5deg)
+
+        &:after
+          top 0
+          right 40px
 
       // === EAR SPACE ===
       // =================
@@ -109,7 +128,7 @@ export default {
         .eyes
           display flex
           justify-content space-evenly
-          margin-top -50px
+          margin-top -70px
 
           .eye-left-wrapper,
           .eye-right-wrapper
@@ -190,10 +209,28 @@ export default {
     .nose-wrapper
       position relative
       display block
-      top -32px
+      top -16px
       width 100%
       height 100px
       background-color greenSkin
       border-left 25px solid blackBorder
       border-right 25px solid blackBorder
+
+      &:before,
+      &:after
+        content ''
+        display block
+        width 20px
+        height 20px
+        position absolute
+        background-color greenSkin
+
+      &:before
+        top -10px
+        left -5px
+        transform rotate(45deg)
+      &:after
+        top -12px
+        right -8px
+        transform rotate(45deg)
 </style>

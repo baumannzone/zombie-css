@@ -34,9 +34,9 @@ export default {
     margin-bottom 200px
     .wrapper
       width 100%
-      height 320px
+      height 260px
       background-color greenSkin
-      border-radius 0 0 50% 50%
+      border-radius 30% 70% 50% 50% / 0% 0% 100% 100%
       border-bottom 25px solid blackBorder
       border-left 25px solid blackBorder
       border-right 25px solid blackBorder
@@ -47,6 +47,7 @@ export default {
 
         .nose
           position relative
+          margin-top -30px
           width 40px
           height 40px
           background-color blackBorder
@@ -70,7 +71,7 @@ export default {
       .mouth-container
         display flex
         justify-content center
-        margin-top 90px
+        margin-top 60px
 
         .mouth
           width 250px
