@@ -10,7 +10,7 @@
 [![Code of conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg)](https://github.com/baumannzone/zombie-css/blob/master/CODE_OF_CONDUCT.md)
 ![GitHub](https://img.shields.io/github/license/baumannzone/zombie-css?color=blue)
 
-> ![MainImage](./src/assets/img/main.png)
+![MainImage](./src/assets/img/main.png)
 
 ## Project setup
 ```
