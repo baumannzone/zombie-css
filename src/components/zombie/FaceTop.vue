@@ -96,8 +96,8 @@ export default {
 
       .brain-1
         position absolute
-        top -240px
-        left -100px
+        top -239px
+        left -106px
         width 120px
         height 121px
         border-radius 50%
@@ -232,7 +232,7 @@ export default {
           content ''
           position absolute
           bottom 0
-          left 108px
+          left 107px
           width 40px
           height 25px
           background-color greenSkin
@@ -261,7 +261,7 @@ export default {
         &:after
           content ''
           position absolute
-          top 143px
+          top 147px
           left 141px
           width 30px
           height 60px

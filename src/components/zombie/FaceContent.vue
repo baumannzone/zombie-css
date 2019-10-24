@@ -7,7 +7,6 @@
           <div class="eye-left-wrapper">
             <div class="eye">
               <div class="decorator decorator-1"></div>
-              <div class="decorator decorator-2"></div>
             </div>
           </div>
           <div class="eye-right-wrapper">
@@ -36,6 +35,8 @@ export default {
 
   .face-content
 
+    // === EARS 👂 ===
+    // ================
     .ears
       position relative
       display flex
@@ -79,8 +80,8 @@ export default {
         z-index 1
 
         &:before
-          left 32px
-          top -19px
+          left 31px
+          top -17px
           transform skew(5deg)
 
         &:after
@@ -93,7 +94,7 @@ export default {
 
         &:before
           right 18px
-          top -19px
+          top -17px
           transform skew(-5deg)
 
         &:after
@@ -181,7 +182,7 @@ export default {
                     width 25px
                     height 25px
                     background-color whiteEye
-                    top -10px
+                    top -12px
                     border-radius 50%
                     box-shadow 35px -20px 0 whiteEye
 
@@ -206,6 +207,7 @@ export default {
                 border-radius 50%
                 border 25px solid blackBorder
 
+     // Actually, not nose
     .nose-wrapper
       position relative
       display block
@@ -227,7 +229,7 @@ export default {
 
       &:before
         top -10px
-        left -5px
+        left -6px
         transform rotate(45deg)
       &:after
         top -12px

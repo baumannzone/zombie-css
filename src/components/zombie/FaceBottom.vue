@@ -32,6 +32,7 @@ export default {
     position relative
     margin-top -32px
     margin-bottom 200px
+
     .wrapper
       width 100%
       height 260px
@@ -41,6 +42,8 @@ export default {
       border-left 25px solid blackBorder
       border-right 25px solid blackBorder
 
+      // === Nose 👃 ===
+      // ===============
       .nose-container
         display flex
         justify-content center
@@ -68,6 +71,8 @@ export default {
           &:before
             bottom -50%
 
+      // === Mouth 👄 ===
+      // ================
       .mouth-container
         display flex
         justify-content center
@@ -79,6 +84,8 @@ export default {
           background-color blackBorder
           border-radius 50% 50% 50% 50% / 85% 85% 15% 15%
 
+          // === Teeth 🦷🦷🦷 ===
+          // =====================
           .teeth
             display flex
             justify-content center
