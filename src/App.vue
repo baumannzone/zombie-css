@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <BaseNavBar/>
-    <div class="container">
-      <router-view/>
-    </div>
+    <router-view/>
     <BaseFooter />
   </div>
 </template>
@@ -16,10 +14,3 @@ export default {
   components: { BaseFooter, BaseNavBar }
 }
 </script>
-
-<style lang="stylus">
-  .container
-    padding-top 100px
-    width 500px
-    margin 0 auto
-</style>
