@@ -231,7 +231,7 @@ export default {
         &:after
           content ''
           position absolute
-          bottom 0
+          bottom -1px
           left 107px
           width 40px
           height 25px
@@ -261,7 +261,7 @@ export default {
         &:after
           content ''
           position absolute
-          top 147px
+          top 144px
           left 141px
           width 30px
           height 60px
