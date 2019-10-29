@@ -1,6 +1,8 @@
 <template>
-  <div class="container home">
-    <Zombie/>
+  <div class="home">
+    <div class="container">
+      <Zombie/>
+    </div>
   </div>
 </template>
 
@@ -16,6 +18,9 @@ export default {
 </script>
 
 <style lang="stylus">
+  .home
+    width 700px
+    margin 0 auto
   .container
     padding-top 100px
     width 500px
