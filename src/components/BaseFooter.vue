@@ -5,7 +5,7 @@
         <li>By Jorge Baumann</li>
         <li><a class="social-gh" href="https://github.com/baumannzone/zombie-css" target="_blank">Github</a></li>
         <li><a class="social-tw" href="https://twitter.com/baumannzone" target="_blank">Twitter</a></li>
-        <li><a class="social-yt" href="https://twitter.com/baumannzone" target="_blank">Youtube</a></li>
+        <li><a class="social-yt" href="https://youtu.be/q0_IOxh-V4s" target="_blank">Youtube</a></li>
         <!--<li>Youtube</li>-->
       </ul>
     </div>
