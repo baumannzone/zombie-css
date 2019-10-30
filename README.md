@@ -12,6 +12,14 @@
 
 ![MainImage](./src/assets/img/main.png)
 
+**LIVE DEMO**: https://zombie-css.netlify.com/
+
+**Video**: https://youtu.be/q0_IOxh-V4s
+
+> On the occasion of the halloween party 🎃 I made this super awesome 🧟‍♀️ Zombie 🧟‍♂️ in CSS.
+
+---
+
 ## Project setup
 ```
 npm install
