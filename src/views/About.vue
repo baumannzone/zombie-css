@@ -8,7 +8,7 @@
     <img src="../assets/img/multiple.png" alt="zombie face v1 vs zombie face v2" width="100%">
 
     <p class="lead">
-      On the left (👈) you can see the first version of the zombie, which was developed while it was recorded.
+      On the left (👈) you can see the first version of the zombie, which was developed while the screen was being recorded.
     </p>
 
     <p class="lead">
