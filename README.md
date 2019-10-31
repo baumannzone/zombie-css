@@ -2,8 +2,6 @@
 
 > Pure CSS Zombie · Made with [Vue.js](https://vuejs.org/) & [Stylus CSS](http://stylus-lang.com/). 
 
-**LIVE DEMO**: https://zombie-css.netlify.com/
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/62cc51b5-8ff4-4864-a1c1-79640db48a50/deploy-status)](https://app.netlify.com/sites/zombie-css/deploys)
 [![Build Status](https://github.com/baumannzone/zombie-css/workflows/Node%20CI/badge.svg)](https://github.com/baumannzone/zombie-css/actions)
 [![Style](https://img.shields.io/badge/code%20style-standard-brightgreen)](https://img.shields.io/badge/code%20style-standard-brightgreen?style=flat-square)
@@ -14,7 +12,9 @@
 
 ![MainImage](./src/assets/img/main.png)
 
-**Video**: https://youtu.be/q0_IOxh-V4s
+**LIVE DEMO**: https://zombie-css.netlify.com/  
+**Video**: https://youtu.be/q0_IOxh-V4s  
+**Dev Post**: https://dev.to/baumannzone/pure-css-zombie-5fea
 
 > On the occasion of the halloween party 🎃 I made this super awesome 🧟‍♀️ Zombie 🧟‍♂️ in CSS.
 
