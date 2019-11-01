@@ -82,7 +82,7 @@ export default {
             color color-gh
 
             &:hover
-              color darken(color-gh, 10)
+              color lighten(color-gh, 15)
 
           &.social-tw
             color color-tw
@@ -100,6 +100,6 @@ export default {
             color color-dev
 
             &:hover
-              color lighten(color-dev, 10)
+              color lighten(color-dev, 15)
 
 </style>
