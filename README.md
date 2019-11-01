@@ -12,11 +12,10 @@
 
 ![MainImage](./src/assets/img/main.png)
 
-**LIVE DEMO**: https://zombie-css.netlify.com/  
-**Video**: https://youtu.be/q0_IOxh-V4s  
-**Dev Post**: https://dev.to/baumannzone/pure-css-zombie-5fea
-
-Check out the color palette here: https://coolors.co/292c34-ffffff-b4e900-fe338f-ff70b5
+🔥 **Live demo**: https://zombie-css.netlify.com/  
+📹 **Video**: https://youtu.be/q0_IOxh-V4s  
+💻 **Dev Post**: https://dev.to/baumannzone/pure-css-zombie-5fea  
+🎨 **Color palette**: https://coolors.co/292c34-ffffff-b4e900-fe338f-ff70b5
 
 ![color-palette](https://coolors.co/export/png/292c34-ffffff-b4e900-fe338f-ff70b5)
 
