@@ -25,6 +25,13 @@
       I usually create open source repos with interesting stuff.
     </p>
 
+    <p class="lead">
+      I made a video where you can see the process of creating the zombie. From <code>0</code> to <code>production ready</code>.
+      <br>
+      Subscribe if you liked it. It's a newly released channel.
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/q0_IOxh-V4s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   </div>
 </template>
 
