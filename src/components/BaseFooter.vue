@@ -28,8 +28,8 @@
         </li>
 
         <li class="social">
-          <a class="social-dev" href="https://dev.to/baumannzone">
-            <i class="fab fa-dev" title="baumannzone's DEV Profile"></i>
+          <a class="social-dev" href="https://dev.to/baumannzone/pure-css-zombie-5fea">
+            <i class="fab fa-dev" title="baumannzone's Pure CSS Zombie"></i>
           </a>
         </li>
 

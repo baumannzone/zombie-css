@@ -18,6 +18,10 @@
 
 > On the occasion of the halloween party 🎃 I made this super awesome 🧟‍♀️ Zombie 🧟‍♂️ in CSS.
 
+Check out the color palette here: https://coolors.co/292c34-ffffff-b4e900-fe338f-ff70b5
+
+![color-palette](https://coolors.co/export/png/292c34-ffffff-b4e900-fe338f-ff70b5)
+
 ---
 
 ## Project setup
