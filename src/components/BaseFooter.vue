@@ -8,23 +8,31 @@
             with 💙 by <a href="https://twitter.com/baumannzone">Jorge Baumann</a>
           </small>
         </li>
+
         <li class="social">
           <a class="social-gh" href="https://github.com/baumannzone/zombie-css" target="_blank">
             <i class="fab fa-github"></i>
-          </a></li>
+          </a>
+        </li>
+
         <li class="social">
           <a class="social-tw" href="https://twitter.com/baumannzone" target="_blank">
             <i class="fab fa-twitter"></i>
-          </a></li>
+          </a>
+        </li>
+
         <li class="social">
           <a class="social-yt" href="https://youtu.be/q0_IOxh-V4s" target="_blank">
             <i class="fab fa-youtube"></i>
-          </a></li>
+          </a>
+        </li>
+
         <li class="social">
           <a class="social-dev" href="https://dev.to/baumannzone">
             <i class="fab fa-dev" title="baumannzone's DEV Profile"></i>
           </a>
         </li>
+
       </ul>
     </div>
   </footer>
@@ -60,6 +68,12 @@ export default {
       li
         display inline-block
         margin 0 10px
+
+        &:first-of-type a
+          color #0e95ff
+          margin-right 15px
+          &:hover
+            color darken(#0e95ff, 10)
 
         &.social a
           font-size 25px

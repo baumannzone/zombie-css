@@ -32,6 +32,12 @@
     </p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/q0_IOxh-V4s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+    <p class="lead">
+      Check out the color palette here: <a href="https://coolors.co/292c34-ffffff-b4e900-fe338f-ff70b5" title="color-palette">https://coolors.co/292c34-ffffff-b4e900-fe338f-ff70b5</a>
+    </p>
+
+    <img src="https://coolors.co/export/png/292c34-ffffff-b4e900-fe338f-ff70b5" alt="color-palette" width="100%">
+
   </div>
 </template>
 
@@ -47,6 +53,7 @@ export default {}
     margin-left auto
     margin-right auto
     margin-bottom 100px
+    background-color rgba(255, 255, 255, 0.5)
 
     .super
       margin 0
