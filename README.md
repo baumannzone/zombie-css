@@ -12,7 +12,7 @@
 
 ![MainImage](./src/assets/img/main.png)
 
-🔥 **Live demo**: https://zombie-css.netlify.com/  
+🔥 **Live DEMO**: https://zombie-css.netlify.com/  
 📹 **Video**: https://youtu.be/q0_IOxh-V4s  
 💻 **Dev Post**: https://dev.to/baumannzone/pure-css-zombie-5fea  
 🎨 **Color palette**: https://coolors.co/292c34-ffffff-b4e900-fe338f-ff70b5
