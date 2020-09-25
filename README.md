@@ -17,7 +17,8 @@
 💻 **Dev Post**: https://dev.to/baumannzone/pure-css-zombie-5fea  
 🎨 **Color palette**: https://coolors.co/292c34-ffffff-b4e900-fe338f-ff70b5
 
-![color-palette](https://coolors.co/export/png/292c34-ffffff-b4e900-fe338f-ff70b5)
+![color-palette](https://user-images.githubusercontent.com/5422102/94235599-1ed22380-ff0c-11ea-93a4-530ccdd1375c.png)
+
 
 ---
 
